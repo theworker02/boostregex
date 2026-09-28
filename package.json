@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boostregex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boost lightweight regex statistics from stdin samples.",
+  "bin": {
+    "boostregex": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boostregex.git"
+  },
+  "homepage": "https://theworker02.github.io/boostregex/",
+  "keywords": [
+    "boost",
+    "regex",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
